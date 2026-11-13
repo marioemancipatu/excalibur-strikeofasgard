@@ -21,6 +21,7 @@
 *.so
 *.dylib
 *.dll
+!Dependencies/Binaries/*.dll
 *.so.*
 
 # Fortran module files
@@ -32,6 +33,7 @@
 *.la
 *.a
 *.lib
+!Dependencies/Libraries/*.lib
 
 # Executables
 *.exe
