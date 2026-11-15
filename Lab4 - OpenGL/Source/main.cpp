@@ -238,7 +238,7 @@ int main(void)
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
 
-	window = glfwCreateWindow(windowWidth, windowHeight, "Lab 3", NULL, NULL);
+	window = glfwCreateWindow(windowWidth, windowHeight, "Excalibur: Strike of Asgard", NULL, NULL);
 	if (window == NULL)
 	{
 		fprintf(stderr, "Failed to open GLFW window.");
